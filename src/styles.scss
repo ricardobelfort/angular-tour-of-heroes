@@ -1,29 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-ul {
-  margin: 1rem 0;
-}
-
 li {
   list-style: none;
 }
 
+html,
 body {
-  padding: 1rem;
-  margin: 2rem;
+  height: 100%;
 }
 
 body,
 input,
 textarea,
 button {
-  font-family: "Open Sans", sans-serif;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
   font-weight: 400;
   font-size: 1rem;
 }
