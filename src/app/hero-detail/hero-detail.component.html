@@ -1,5 +1,6 @@
-<article *ngIf="hero">
-  <h2>{{ hero.name | uppercase }} Details</h2>
+<article *ngIf="hero" style="margin-bottom: 2rem">
+  <hr style="margin: 1rem 0" />
+  <h2>Hero Details: {{ hero.name | uppercase }}</h2>
   <p><strong>Id:</strong> {{ hero.id }}</p>
   <p><strong>Name:</strong> {{ hero.name }}</p>
 
